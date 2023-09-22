@@ -34,10 +34,6 @@ Description: An application to calculate electricity bills for Maharashtra State
 
 Include instructions on how to run and use these applications. Provide any prerequisites or dependencies required.
 
-## Screenshots
-
-You can include screenshots or images of your applications here if available.
-
 
 ## Acknowledgments
 
