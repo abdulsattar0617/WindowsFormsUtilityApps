@@ -1,0 +1,17 @@
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\bin\Debug\net7.0-windows\01_WP_RC_PR_WinForm.exe
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\bin\Debug\net7.0-windows\01_WP_RC_PR_WinForm.deps.json
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\bin\Debug\net7.0-windows\01_WP_RC_PR_WinForm.runtimeconfig.json
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\bin\Debug\net7.0-windows\01_WP_RC_PR_WinForm.dll
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\bin\Debug\net7.0-windows\01_WP_RC_PR_WinForm.pdb
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\01_WP_RC_PR_WinForm.csproj.AssemblyReference.cache
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\_01_WP_RC_PR_WinForm.Form1.resources
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\01_WP_RC_PR_WinForm.csproj.GenerateResource.cache
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\01_WP_RC_PR_WinForm.GeneratedMSBuildEditorConfig.editorconfig
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\01_WP_RC_PR_WinForm.AssemblyInfoInputs.cache
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\01_WP_RC_PR_WinForm.AssemblyInfo.cs
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\01_WP_RC_PR_WinForm.csproj.CoreCompileInputs.cache
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\01_WP_RC_PR_WinForm.dll
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\refint\01_WP_RC_PR_WinForm.dll
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\01_WP_RC_PR_WinForm.pdb
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\01_WP_RC_PR_WinForm.genruntimeconfig.cache
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\01_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\ref\01_WP_RC_PR_WinForm.dll
