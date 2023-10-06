@@ -133,6 +133,16 @@ namespace _04_WP_RC_PR_WinForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap check_box_image {
+            get {
+                object obj = ResourceManager.GetObject("check box image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DIRECTOR_SIGNATURE {
             get {
                 object obj = ResourceManager.GetObject("DIRECTOR SIGNATURE", resourceCulture);

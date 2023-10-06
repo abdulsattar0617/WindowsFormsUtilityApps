@@ -30,20 +30,6 @@ namespace _04_WP_RC_PR_WinForm
             this.AbcId = abcId;
             this.SeatNo = seatNo;
         }
-
-        // get METHODS
-
-        // get name
-        // public string get_Name() { return this.Name; }
-
-        // get Prn No
-        // public uint get_PrnNo() { return this.PrnNo; }
-
-        // get abc id
-        // public uint get_AbcId() { return this.AbcId; }
-
-        // get seat no
-        // public uint get_SeatNo() { return this.SeatNo; } 
     }
 
     public class SemesterModel
@@ -231,6 +217,7 @@ namespace _04_WP_RC_PR_WinForm
         // calculate sub earned grade point
         private void calc_SUB_EarnedGradePoint()
         {
+            // EGP = GP * Credit Earned
             // OPTIMIZE IT 
             // TH sub - 5
             this.SUB_OBTAINED_EARNED_GRADE_POINT[0] = Convert.ToByte(this.SUB_OBTAINED_GRADE_POINT[0] * this.TH_SUB_CREDIT_EARNED[0]);
@@ -246,7 +233,7 @@ namespace _04_WP_RC_PR_WinForm
 
 
         // grade point calculator
-        private byte findGradePoint(byte marks, byte subIndex)
+        public byte findGradePoint(byte marks, byte subIndex) 
         {
             if (subIndex >= 0 && subIndex < 5)
             {
@@ -340,33 +327,24 @@ namespace _04_WP_RC_PR_WinForm
         // YEAR DATA SAVED 
         public bool YEAR_DATA_SAVED = false; 
 
-        // Get earned grade points
-        // public byte get_Earned_Grade_Point()
-        // {
-        //     return this.TOTAL_EARNED_GRADE_POINT;
-        // }
-        // Get total grade point
-        // public byte get_Grade_Point()
-        // {
-        //     return this.TOTAL_GRADE_POINT;
-        // }
-        // Get total credit earned
-        // public byte get_Credit_EARNED()
-        // {
-        //     return this.TOTAL_CREDIT_EARNED;
-        // }
-
-        // Get CGPA
-        // public double get_CGPA()
-        // {
-        //     return this.CGPA;
-        // }
-
         // Get Total Marks Max
         public short get_Total_MaxMarks()
         {
             return TOTAL_MARKS_MAX;
         }
+
+        public void resetYear()
+        {
+            this.CGPA = 0;
+            this.TOTAL_CREDIT_EARNED = 0;
+            this.TOTAL_MARKS = 0;
+            this.TOTAL_GRADE_POINT = 0;
+            this.TOTAL_EARNED_GRADE_POINT = 0;
+
+            // SET FLAG
+            this.YEAR_DATA_SAVED = false; 
+        }
+
     }
 
     public class YearModel : LastYear
@@ -374,23 +352,6 @@ namespace _04_WP_RC_PR_WinForm
         // two semester
         public SemesterModel firstSemester = new SemesterModel();
         public SemesterModel secondSemester = new SemesterModel();
-
-
-        // CPGA
-        // double CGPA;
-        // 
-        // // CREDIT EARNED TOTAL
-        // byte TOTAL_CREDIT_EARNED;
-        // 
-        // // TOTAL MARKS OUT OF 1200
-        // short TOTAL_MARKS;
-        // const short TOTAL_MARKS_MAX = 1200;
-        // 
-        // // TOTAL GRADE POINT - GP
-        // byte TOTAL_GRADE_POINT;
-        // 
-        // // TOTAL EARNED GRADE POINT - EGP 
-        // byte TOTAL_EARNED_GRADE_POINT;
 
         // RESULT
         public string RESULT;
@@ -401,28 +362,6 @@ namespace _04_WP_RC_PR_WinForm
         private void calc_TotalCreditEarned()
         {
             this.TOTAL_CREDIT_EARNED = 0;
-            // SEMESTER 1
-            // add TH subject credit point
-            // foreach (byte creditPoint in firstSemester.TH_SUB_CREDIT_EARNED)
-            // {
-            //     this.TOTAL_CREDIT_EARNED += creditPoint;
-            // }
-            // // add PR subjects credit point
-            // foreach (byte creditPoint in firstSemester.PR_SUB_CREDIT_EARNED)
-            // {
-            //     this.TOTAL_CREDIT_EARNED += creditPoint;
-            // }
-            // // SEMESTER 2
-            // // add TH subject credit point
-            // foreach (byte creditPoint in secondSemester.TH_SUB_CREDIT_EARNED)
-            // {
-            //     this.TOTAL_CREDIT_EARNED += creditPoint;
-            // }
-            // // add PR subject credit point
-            // foreach (byte creditPoint in secondSemester.PR_SUB_CREDIT_EARNED)
-            // {
-            //     this.TOTAL_CREDIT_EARNED += creditPoint;
-            // }
 
             // SEMESTER I & SEMESTER II 
             // TH - theory subject credit point
@@ -483,35 +422,6 @@ namespace _04_WP_RC_PR_WinForm
             this.CGPA = Math.Round((double)this.TOTAL_EARNED_GRADE_POINT / this.TOTAL_CREDIT_EARNED, 2);
         }
 
-        // getter methods
-
-        // Get earned grade points
-        // public byte get_Earned_Grade_Point()
-        // {
-        //     return this.TOTAL_EARNED_GRADE_POINT;
-        // }
-        // // Get total grade point
-        // public byte get_Grade_Point()
-        // {
-        //     return this.TOTAL_GRADE_POINT;
-        // }
-        // // Get total credit earned
-        // public byte get_Credit_EARNED()
-        // {
-        //     return this.TOTAL_CREDIT_EARNED;
-        // }
-        // 
-        // // Get CGPA
-        // public double get_CGPA()
-        // {
-        //     return this.CGPA;
-        // }
-        // 
-        // // Get Total Marks
-        // public short get_Total_Marks()
-        // {
-        //     return this.TOTAL_MARKS;
-        // }
 
         // TODO - calculate result 
         private void calc_Result()
@@ -1155,6 +1065,8 @@ namespace _04_WP_RC_PR_WinForm
                             this.previousMarksheetSeatNo[index++] = line.Trim();
                         }
                     }
+
+                    return true; 
                 }
                 catch (IOException e)
                 {
@@ -1720,7 +1632,4 @@ namespace _04_WP_RC_PR_WinForm
         }
         // -------------------------------------
     }
-    // internal class LibraryClass
-    // {
-    // }
 }

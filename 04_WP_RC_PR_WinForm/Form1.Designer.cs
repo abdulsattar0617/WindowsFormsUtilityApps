@@ -155,21 +155,21 @@
             // enterMarksButton
             // 
             enterMarksButton.BackColor = Color.FromArgb(68, 142, 228);
-            enterMarksButton.FlatStyle = FlatStyle.Popup;
+            enterMarksButton.FlatStyle = FlatStyle.Flat;
             enterMarksButton.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             enterMarksButton.ForeColor = Color.FromArgb(239, 244, 255);
             enterMarksButton.Location = new Point(347, 332);
             enterMarksButton.Name = "enterMarksButton";
             enterMarksButton.Size = new Size(177, 36);
             enterMarksButton.TabIndex = 6;
-            enterMarksButton.Text = "Enter Marks";
+            enterMarksButton.Text = "SY Marks";
             enterMarksButton.UseVisualStyleBackColor = false;
             enterMarksButton.Click += enterMarksButton_Click;
             // 
             // genMarksheetButton
             // 
             genMarksheetButton.BackColor = Color.FromArgb(45, 137, 239);
-            genMarksheetButton.FlatStyle = FlatStyle.Popup;
+            genMarksheetButton.FlatStyle = FlatStyle.Flat;
             genMarksheetButton.Font = new Font("Verdana", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             genMarksheetButton.ForeColor = Color.FromArgb(239, 244, 255);
             genMarksheetButton.Location = new Point(104, 390);
@@ -183,14 +183,14 @@
             // fyDetailButton
             // 
             fyDetailButton.BackColor = Color.FromArgb(68, 142, 228);
-            fyDetailButton.FlatStyle = FlatStyle.Popup;
+            fyDetailButton.FlatStyle = FlatStyle.Flat;
             fyDetailButton.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             fyDetailButton.ForeColor = Color.FromArgb(239, 244, 255);
             fyDetailButton.Location = new Point(104, 332);
             fyDetailButton.Name = "fyDetailButton";
             fyDetailButton.Size = new Size(177, 36);
             fyDetailButton.TabIndex = 5;
-            fyDetailButton.Text = "FY Details";
+            fyDetailButton.Text = "FY Marks";
             fyDetailButton.UseVisualStyleBackColor = false;
             fyDetailButton.Click += fyDetailButton_Click;
             // 

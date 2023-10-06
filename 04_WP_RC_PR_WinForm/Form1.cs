@@ -27,12 +27,17 @@ namespace _04_WP_RC_PR_WinForm
 
             // READ TEXT FILE
 
-            Marksheet.Instance.readPreviousMarksheetTextFile();
-
-            // ADD ALL SEAT NO 
-            for (int i = 0; i < Marksheet.Instance.previousMarksheetSeatNo.Length; i++)
+            if (Marksheet.Instance.readPreviousMarksheetTextFile())
             {
-                previousMarksheetCB.Items.Add(Marksheet.Instance.previousMarksheetSeatNo[i]);
+                // ADD ALL SEAT NO 
+                for (int i = 0; i < Marksheet.Instance.previousMarksheetSeatNo.Length; i++)
+                {
+                    previousMarksheetCB.Items.Add(Marksheet.Instance.previousMarksheetSeatNo[i]);
+                }
+            }
+            else
+            {
+                previousMarksheetCB.Items.Add("No marksheets");
             }
         }
 
@@ -103,11 +108,10 @@ namespace _04_WP_RC_PR_WinForm
 
         private void fyDetailButton_Click(object sender, EventArgs e)
         {
-            // Create an instance of Form2
-            FYDataEntryForm FYDEF = new FYDataEntryForm();
+            // TODO - IMPLEMENT ME 
+            SynapsyPointForm synapsy = new SynapsyPointForm();
 
-            // Show Form2 as a modal dialog
-            FYDEF.ShowDialog();
+            synapsy.ShowDialog();
         }
 
         private void enterMarksButton_Click(object sender, EventArgs e)

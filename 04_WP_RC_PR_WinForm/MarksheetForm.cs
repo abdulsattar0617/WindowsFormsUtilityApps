@@ -256,9 +256,6 @@ namespace _04_WP_RC_PR_WinForm
             // load result issue date and mark memo issue date
         }
 
-        private void semThreeMaxMinTwoLabel_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

@@ -3,7 +3,6 @@ E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\W
 E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\04_WP_RC_PR_WinForm\bin\Debug\net7.0-windows\04_WP_RC_PR_WinForm.runtimeconfig.json
 E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\04_WP_RC_PR_WinForm\bin\Debug\net7.0-windows\04_WP_RC_PR_WinForm.dll
 E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\04_WP_RC_PR_WinForm\bin\Debug\net7.0-windows\04_WP_RC_PR_WinForm.pdb
-E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\04_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\04_WP_RC_PR_WinForm.csproj.AssemblyReference.cache
 E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\04_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\_04_WP_RC_PR_WinForm.Form1.resources
 E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\04_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\_04_WP_RC_PR_WinForm.FYDataEntryForm.resources
 E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\04_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\_04_WP_RC_PR_WinForm.SYDataEntryForm.resources
@@ -19,3 +18,5 @@ E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\W
 E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\04_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\ref\04_WP_RC_PR_WinForm.dll
 E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\04_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\_04_WP_RC_PR_WinForm.MarksheetForm.resources
 E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\04_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\_04_WP_RC_PR_WinForm.Properties.Resources.resources
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\04_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\_04_WP_RC_PR_WinForm.FY2DataEntryForm.resources
+E:\My_NOTES_BCS\THIRD YEAR\SEM V\PR\Windows Programming\RC\Practical Questions\Windows Forms\04_WP_RC_PR_WinForm\obj\Debug\net7.0-windows\_04_WP_RC_PR_WinForm.SynapsyPointForm.resources

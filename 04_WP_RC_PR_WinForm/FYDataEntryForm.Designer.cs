@@ -165,7 +165,7 @@
             // saveButton
             // 
             saveButton.BackColor = Color.FromArgb(45, 137, 239);
-            saveButton.FlatStyle = FlatStyle.Popup;
+            saveButton.FlatStyle = FlatStyle.Flat;
             saveButton.Font = new Font("Verdana", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             saveButton.ForeColor = Color.FromArgb(239, 244, 255);
             saveButton.Location = new Point(12, 12);
